@@ -31,10 +31,11 @@
      (:name "TODO" :query "tag:TODO")
      (:name "debian-rust" :query "tag:pkg-rust and tag:unread")
      (:name "Tahoe Development" :query "tag:tahoe-dev and tag:unread")
+     (:name "Intrigeri conversations" :query "tag:nm-process and tag:unread")
      (:name "Debian Multimedia (my packages)"
             :query "tag:pkg-multimedia and tag:unread and \( subject:(rem.*):.* or subject:(librem.*):.* \)")
      (:name "Debian VoIP (my packages)"
-            :query "tag:pkg-voip and tag:unread and \( subject:(*libre*):.* or subject:(baresip*):.* or subject:(biboumi*):.* \)"))))
+            :query "tag:pkg-voip and tag:unread and subject:(*libre*):.* or subject:(baresip*):.* or subject:(biboumi*):.*"))))
  '(notmuch-search-line-faces
    (quote
     (("deleted" :foreground "red")
