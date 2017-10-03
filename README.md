@@ -9,3 +9,6 @@ needs. You can adopt this file if it interests you.
 - keybindings.el: Defines some of the key bindings I use in notmuch-emacs.
 
 
+## License ##
+
+This layer is licensed under GPL-3+.
