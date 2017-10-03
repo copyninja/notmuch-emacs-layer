@@ -34,7 +34,6 @@
     notmuch
     smtpmail-multi
     gnus
-    bbdb
     ))
 
 (defun notmuch/init-notmuch ()
@@ -49,10 +48,5 @@
 
 (defun notmuch/init-gnus ()
   (use-package gnus
-    :defer t
-    ))
-
-(defun notmuch/init-bbdb ()
-  (use-package bbdb
     :defer t
     ))
