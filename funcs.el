@@ -55,7 +55,8 @@
 
 ;; Functions copied from
 ;; https://notmuchmail.org/pipermail/notmuch/2012/011692.html
-(require 'bbdb-snarf)
+(require 'bbdb-autoloads)
+(require 'bbdb)
 (defun bbdb/notmuch-snarf-header (header)
   (let ((text (notmuch-show-get-header header)))
     (with-temp-buffer

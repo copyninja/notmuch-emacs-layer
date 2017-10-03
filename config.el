@@ -85,6 +85,8 @@
          (address "vasudev@debian.org"))))
 
 ;; Enable bbdb configurations
+(require 'bbdb-autoloads)
+(require 'bbdb)
 (bbdb-initialize 'message 'gnus 'sendmail)
 (setq bbdb-file "~/.bbdb.db")
 
