@@ -32,6 +32,7 @@
 (defconst notmuch-packages
   '(
     notmuch
+    bbdb
     smtpmail-multi
     gnus
     ))
@@ -48,5 +49,10 @@
 
 (defun notmuch/init-gnus ()
   (use-package gnus
+    :defer t
+    ))
+
+(defun notmuch/init-bbdb ()
+  (use-package bbdb
     :defer t
     ))
