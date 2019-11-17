@@ -85,9 +85,9 @@
          (address "vasudev@debian.org"))))
 
 ;; Enable bbdb configurations
-(require 'bbdb-autoloads)
-(require 'bbdb)
-(bbdb-initialize 'message 'gnus 'sendmail)
+;;(require 'bbdb-autoloads)
+;;(require 'bbdb)
+;;(bbdb-initialize 'gnus 'mail 'message)
 (setq bbdb-file "~/.bbdb.db")
 
 ;; size of bbdb popup
