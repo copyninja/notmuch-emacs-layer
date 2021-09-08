@@ -3,7 +3,6 @@
 (setq mail-user-agent 'message-user-agent)
 
 (custom-set-variables
- '(message-send-hook (quote (notmuch-message-mark-replied)))
  '(notmuch-address-command "notmuch-addrlookup")
  '(notmuch-always-prompt-for-sender t)
  '(notmuch-crypto-process-mime t)
