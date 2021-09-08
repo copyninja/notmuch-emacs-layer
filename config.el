@@ -53,7 +53,7 @@
                                                notmuch-wash-elide-blank-lines
                                                notmuch-wash-excerpt-citations))))
 
-(add-hook 'notmuch-hello-refresh-hook 'notmuch-hello-refresh-status-message)
+(add-hook 'notmuch-hello-refresh-hook 'notmuch-hello-refresh-status-message nil t)
 
 ;; SMTP mail multi related configurations
 (setq smtpmail-multi-accounts
