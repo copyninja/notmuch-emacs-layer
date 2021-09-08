@@ -32,6 +32,8 @@
      (:name "TODO" :query "tag:TODO")
      (:name "debian-rust" :query "folder:vasudev-debian/pkg-rust and tag:unread")
      (:name "Tahoe Development" :query "folder:vasudev/tahoe-dev and tag:unread")
+     (:name "debian-backports" :query "folder:vasudev-debian/debian-backports and tag:unread")
+     (:name "pkg-libvirt" :query "folder:vasudev-debian/pkg-libvirt and tag:unread")
      (:name "Intrigeri conversations" :query "folder:vasudev/nm-process and tag:unread")
      (:name "Debian Multimedia (my packages)"
             :query "folder:vasudev-debian/pkg-multimedia and tag:unread and \( subject:(rem.*):.* or subject:(librem.*):.* \)")
